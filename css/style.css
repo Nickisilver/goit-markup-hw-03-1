@@ -283,6 +283,8 @@ img {
   text-align: center;
   text-transform: capitalize;
 
+  margin-bottom: 72px;
+
   color: var(--title-color);
 }
 .team-list {
