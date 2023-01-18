@@ -273,7 +273,6 @@ img {
 
 .section-team {
   background-color: var(--bg-color-team);
-  padding-top: 0;
 }
 .container {
 }
@@ -310,6 +309,10 @@ img {
   margin-top: 0;
   padding-top: 32px;
   padding-bottom: 32px;
+  background-color: var(--main-background-color);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
 .card-title {
   font-weight: 500;
@@ -340,6 +343,7 @@ img {
   color: var(--bg-color-team);
   margin-bottom: 16px;
   padding-bottom: 0;
+  padding-top: 0;
   display: inline-block;
 }
 .footer-text {
@@ -416,7 +420,6 @@ img {
   margin-left: -24px;
 }
 .card-item {
-  /* padding-bottom: 32px; */
 }
 .list-cards > .card-item {
   flex-basis: calc(100% / 3 - 24px);
